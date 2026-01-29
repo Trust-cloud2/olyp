@@ -20,11 +20,11 @@ const [username, setUsername] = useState("");
 
     emailjs
       .send(
-        "service_76r21vt",
-        "template_3ebt39a",
+        "service_7ft0j5v",
+        "template_c3ns3xi",
         templateParams,
         {
-          publicKey: "VLpCFbUU9kwO5lLXo",
+          publicKey: "mFx6xCYef280A55VZ",
         }
       )
       .then(() => {
